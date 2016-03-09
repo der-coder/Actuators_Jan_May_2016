@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.1.25)  1 MAR 2016 17:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.1.25)  1 MAR 2016 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -592,40 +592,64 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: ./img/practica05.png Graphic file (type png)
 
 <use ./img/practica05.png>
-Package pdftex.def Info: ./img/practica05.png used on input line 8.
+Package pdftex.def Info: ./img/practica05.png used on input line 9.
 (pdftex.def)             Requested size: 295.66902pt x 209.10432pt.
-) (./tex/evidencia.tex [1]
-<./img/20160228_190823.jpg, id=21, 3276.24pt x 1846.9pt>
-File: ./img/20160228_190823.jpg Graphic file (type jpg)
+ [1]) (./tex/evidencia.tex
+<./img/20160228_190845.jpg, id=21, 3276.24pt x 1846.9pt>
+File: ./img/20160228_190845.jpg Graphic file (type jpg)
 
-<use ./img/20160228_190823.jpg>
-Package pdftex.def Info: ./img/20160228_190823.jpg used on input line 11.
-(pdftex.def)             Requested size: 819.05801pt x 461.72388pt.
+<use ./img/20160228_190845.jpg>
+Package pdftex.def Info: ./img/20160228_190845.jpg used on input line 23.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+ [2 <./img/practica05.png>]
+<./img/20160228_190829.jpg, id=26, 3276.24pt x 1846.9pt>
+File: ./img/20160228_190829.jpg Graphic file (type jpg)
 
-Overfull \hbox (429.05801pt too wide) in paragraph at lines 11--12
- [][] 
- []
+<use ./img/20160228_190829.jpg>
+Package pdftex.def Info: ./img/20160228_190829.jpg used on input line 30.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
 
-) (./tex/analisis.tex) (./tex/comentarios.tex) [2 <./img/practica05.png>]
-[3 <./img/20160228_190823.jpg>] [4] (./reporte_practica05.aux) ) 
+<./img/20160228_204710.jpg, id=27, 3276.24pt x 1846.9pt>
+File: ./img/20160228_204710.jpg Graphic file (type jpg)
+
+<use ./img/20160228_204710.jpg>
+Package pdftex.def Info: ./img/20160228_204710.jpg used on input line 37.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+
+<./img/20160301_134958.jpg, id=28, 3276.24pt x 1846.9pt>
+File: ./img/20160301_134958.jpg Graphic file (type jpg)
+
+<use ./img/20160301_134958.jpg>
+Package pdftex.def Info: ./img/20160301_134958.jpg used on input line 44.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+
+<./img/20160301_135006.jpg, id=29, 3276.24pt x 1846.9pt>
+File: ./img/20160301_135006.jpg Graphic file (type jpg)
+
+<use ./img/20160301_135006.jpg>
+Package pdftex.def Info: ./img/20160301_135006.jpg used on input line 51.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+) (./tex/analisis.tex) (./tex/comentarios.tex
+[3 <./img/20160228_190845.jpg> <./img/20160228_190829.jpg>] [4 <./img/20160228_
+204710.jpg> <./img/20160301_134958.jpg>]) [5 <./img/20160301_135006.jpg>]
+[6] (./reporte_practica05.aux) ) 
 Here is how much of TeX's memory you used:
- 12623 strings out of 493315
- 236175 string characters out of 6145893
+ 12645 strings out of 493315
+ 236743 string characters out of 6145893
  297765 words of memory out of 5000000
- 15788 multiletter control sequences out of 15000+600000
+ 15806 multiletter control sequences out of 15000+600000
  10451 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,7n,61p,458b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/tex
-mf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/publ
-ic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb>
-Output written on reporte_practica05.pdf (5 pages, 2127172 bytes).
+</usr/share/texmf/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
+/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on reporte_practica05.pdf (7 pages, 10167001 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
