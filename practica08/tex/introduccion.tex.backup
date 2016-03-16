@@ -1,0 +1,12 @@
+\section{Introducci\'on}
+La repulsi\'on de polos magn\'eticos similares generan una fuerza considerable. El control de dicha fuerza para generar movimiento es
+una t\'ecnica empleada bastante en la industria de transportaci\'on, un ejemplo de esto son los trenes bala que operan mediante series
+ de imanes ubicados en los rieles.
+
+\section{Objetivos}
+\begin{itemize}
+ \item Construir un motor de pulsos
+ \item Dise\~nar y construir un tac\'ometro digital
+\end{itemize}
+
+\section{Descripci\'on y Presentaci\'on}

@@ -1,9 +1,20 @@
 \section{Introducci\'on}
+La repulsi\'on de polos magn\'eticos similares generan una fuerza considerable. El control de dicha fuerza para generar movimiento es
+una t\'ecnica empleada bastante en la industria de transportaci\'on, un ejemplo de esto son los trenes bala que operan mediante series
+ de imanes ubicados en los rieles.
 
 \section{Objetivos}
 \begin{itemize}
- \item 
- \item
+ \item Construir un motor de pulsos
+ \item Dise\~nar y construir un tac\'ometro digital
 \end{itemize}
 
 \section{Descripci\'on y Presentaci\'on}
+El dise\~no del motor busc\'o reducir la fricci\'on del rotor a lo m\'inimo, por ello se opt\'o por reducir la superficie de contacto
+entre el rotor y los soportes. Para ello se emple\'o una aguja como rotor, la cual concentra todo el peso del sistema en un
+espacio m\'inimo. Se emple\'o un electroim\'an de tama\~no considerable para generar el campo magn\'etico, y se colocaron
+cuatro imanes de neodimio en el rotor para asegurar la conservaci\'on de momento del sistema.\\
+
+El dise\~no del tac\'ometro comprendi\'o varias etapas: dise\~no del circuito, programaci\'on, simulaci\'on y pruebas f\'isicas.
+Inicialmente se desarroll\'o c\'odigo en C para controlar mediante un PIC16F887 un  display de cristal l\'iquido. Sin embargo,
+el programador disponible en el campus dej\'o de operar por fallas de la fuente de alimentaci\'on.

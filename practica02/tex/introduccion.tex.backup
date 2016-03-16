@@ -1,0 +1,22 @@
+\section{Introducci\'on}
+En esta pr\'actica se pretende demostrar la posibilidad de convertir cambios en el campo magnti\'eco de un objeto en se\~nales el\'ectricas y \'estas a su vez en ondas sonoras.
+\section{Objetivos}
+\begin{itemize}
+ \item Construir un instrumento musical que opere con se\~nales el\'etricas
+ \item Crear un amplificador de audio
+ \ites Elaborar una pastilla de guitarra el\'ectrica
+\end{itemize}
+
+\section{Descripci\'on y Presentaci\'on}
+La practica tuvo cuatro etapas:
+\begin{enumerate}
+ \item Construcci\'on del amplificador
+ \item Embobinado
+ \item Manufactura del instrumento
+ \item Prueba del instrumento
+\end{enumerate}
+
+La etapa del amplificador consisti\'o en la adquisici\'on de materiales y la elaboraci\'on del circuito de referencia provisto en la hoja de especificaciones del amplificador operacional (LM386N-1). Para operar requiere de una fuente de alimentaci\'on de 9 V, y su funcionamiento se comprob\'o con dos guitarras el\'ectricas comerciales.\\
+
+El embobinado requiri\'o de la elaboraci\'on de una base con varios polos met\'alicos para aumentar la magnitud del flujo magn\'etico resultante. Se emplearon tornillos comerciales y alambre calibre 33. El proceso de embobinado tom\'o alrededor de ocho horas.\\
+
