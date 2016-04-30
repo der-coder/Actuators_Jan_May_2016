@@ -1,30 +1,69 @@
 \subsection{C\'odigo de programaci\'on}
 
 \begin{lstlisting}
-Name     Practica4 ;
-PartNo   00 ;
-Date     04/02/2015 ;
-Revision 01 ;
-Designer Equipo CM ;
-Company  ITESM ;
-Assembly None ;
-Location  ; 
-Device   g16v8a ;
+program SUBMARINO
 
-/* *************** INPUT PINS *********************/
-PIN 2    = P                       ; /*                                 */ 
-PIN 3    = B                       ; /*                                 */ 
-PIN 4    = F                       ; /*                                 */ 
-PIN 5    = R                       ; /*                                 */ 
-PIN 6    = L                       ; /*                                 */ 
+symbol goleft=64
+symbol goright=32
+symbol up=16
+symbol forward=8
+symbol backwards=4
+symbol turnleft=2
+symbol turnright=1
 
-/* *************** OUTPUT PINS *********************/
-PIN   12  =   D1                      ; /*                          */ 
-PIN   13  =   D0                      ; /*     I1 es igual a D0     */ 
-PIN   14  =   I0                      ; /*                          */ 
+dim estado as byte
 
-/* Ecuaciones */
-D1= (P&!F&R)#(P&L)#(!P&F)#(!P&!B&!R);
-D0= (P&F&!L);
-I0= (!F)&(!P#!L);
+main:
+     ADCON1=$07
+
+    TRISB=255
+    TRISC=0
+    TRISD=0
+    PORTB=0
+    estado=1
+
+    WHILE TRUE
+          PORTD=0
+          PORTC=0
+          'delay_ms(70)
+          while(PORTB=goleft)
+              PORTD=32
+             'PORTC.2=1
+          wend
+
+          while(PORTB=goright)
+              PORTD=128
+          wend
+             while(PORTB=up)
+              PORTD=10
+          wend
+             while(PORTB=forward)
+              'PORTC=80
+              PORTC.3=0
+              PORTC.4=1
+              PORTC.5=0
+              PORTC.6=1
+              
+          wend
+             while(PORTB=backwards)
+              'PORTC=160
+              PORTC.3=1
+              PORTC.4=0
+              PORTC.5=1
+              PORTC.6=0
+          wend
+             while(PORTB=turnleft)
+              PORTC.3=1
+              PORTC.4=0
+              PORTC.5=0
+              PORTC.6=1
+          wend
+             while(PORTB=turnright)
+              PORTC.3=0
+              PORTC.4=1
+              PORTC.5=1
+              PORTC.6=0
+          wend
+    wend
+    end.
 \end{lstlisting}

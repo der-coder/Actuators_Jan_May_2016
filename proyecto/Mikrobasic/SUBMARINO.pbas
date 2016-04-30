@@ -1,0 +1,66 @@
+program SUBMARINO
+
+symbol goleft=64
+symbol goright=32
+symbol up=16
+symbol forward=8
+symbol backwards=4
+symbol turnleft=2
+symbol turnright=1
+
+dim estado as byte
+
+main:
+     ADCON1=$07
+
+    TRISB=255
+    TRISC=0
+    TRISD=0
+    PORTB=0
+    estado=1
+    
+    WHILE TRUE
+          PORTD=0
+          PORTC=0
+          'delay_ms(70)
+          while(PORTB=goleft)
+              PORTD=32
+             'PORTC.2=1
+          wend
+    
+          while(PORTB=goright)
+              PORTD=128
+          wend
+             while(PORTB=up)
+              PORTD=10
+          wend
+             while(PORTB=forward)
+              'PORTC=80
+              PORTC.3=0
+              PORTC.4=1
+              PORTC.5=0
+              PORTC.6=1
+              
+          wend
+             while(PORTB=backwards)
+              'PORTC=160
+              PORTC.3=1
+              PORTC.4=0
+              PORTC.5=1
+              PORTC.6=0
+          wend
+             while(PORTB=turnleft)
+              PORTC.3=1
+              PORTC.4=0
+              PORTC.5=0
+              PORTC.6=1
+          wend
+             while(PORTB=turnright)
+              PORTC.3=0
+              PORTC.4=1
+              PORTC.5=1
+              PORTC.6=0
+          wend
+    wend
+    end.
+    

@@ -1,0 +1,56 @@
+%\pagebreak
+
+\subsection{Evidencia de realizaci\'on}
+Como evidencia de realizaci\'on se presentan:
+\begin{itemize}
+ \item Video del submarino en funcionamiento: https://youtu.be/SB8qP86GZPc
+ \item Im\'agenes de la construcci\'on del submarino
+\end{itemize}
+
+ \begin{figure}[!htbp]
+ \centering
+ \includegraphics [scale=0.1]
+ {./img/20160327_150937.jpg}
+ \caption{Tubos de PVC cortados a la medida.}
+ \end{figure}
+
+  \begin{figure}[!htbp]
+ \centering
+ \includegraphics [scale=0.1]
+ {./img/20160327_150940.jpg}
+ \caption{Tubo de PVC antes de ser cortado a la medida.}
+ \end{figure}
+
+  \begin{figure}[!htbp]
+ \centering
+ \includegraphics [scale=0.1]
+ {./img/20160327_151125.jpg}
+ \caption{Ensamblaje del submarino.}
+ \end{figure}
+
+ \begin{figure}[!htbp]
+ \centering
+ \includegraphics [scale=0.1]
+ {./img/20160429_205804.jpg}
+ \caption{Contenedores de motores impresos en PLA.}
+ \end{figure}
+
+  \begin{figure}[!htbp]
+ \centering
+ \includegraphics [scale=0.1]
+ {./img/20160427_003706.jpg}
+ \caption{Transporte del submarino.}
+ \end{figure}
+
+  \begin{figure}[!htbp]
+ \centering
+ \includegraphics [scale=0.1]
+ {./img/20160428_180525.jpg}
+ \caption{Submarino completado.}
+ \end{figure}
+
+
+
+
+
+% \pagebreak

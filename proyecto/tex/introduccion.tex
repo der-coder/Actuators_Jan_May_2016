@@ -15,14 +15,19 @@ El desarrollo del proyecto se llev\'o a cabo en tres etapas:
 \begin{itemize}
  \item Dise\~no virtual
  \item Prototipo
- \item Producto final
+ \item Producto finals
 \end{itemize}
 
 \section{Dise\~no Asistido por Computadora}
 Para el dise\~no en CAD, se realizaron dos versiones del submarino: una en Siemens NX 10 y otra en FreeCAD 0.17.
 El modelo en FreeCAD se elabor\'o durante el fin de semana, por lo que su disponibilidad permiti\'o dise\~nar y construir
-la estructura del submarino durante un \'unico fin de semana. En la siguiente figura se muestra la vista isom\'etrica del
-submarino en FreeCAD.
+la estructura del submarino durante un \'unico fin de semana. En la figura 1 se muestra la vista isom\'etrica del
+submarino en FreeCAD.\\
+
+Asimismo, se utiliz\'o FreeCAD para dise\~nar los contenedores de los motores, y el ap\'endice que mover\'ia los aros del reto.
+Los contenedores se fabricaron mediante impresi\'on 3D de PLA en colores azul y transparente. Se contrataron dos proveedores
+para reducir el tiempo de espera para obtener todas las impresiones necesarias. La figura 2 muestra la vista
+isom\'etrica del contenedor de los motores.\\
 
  \begin{figure}[!htbp]
  \centering
@@ -31,13 +36,15 @@ submarino en FreeCAD.
   \caption{Modelo en FreeCAD}
  \end{figure}
 
-Asimismo, se utiliz\'o FreeCAD para dise\~nar los contenedores de los motores, y el ap\'endice que mover\'ia los aros del reto.
-Los contenedores se fabricaron mediante impresi\'on 3D de PLA en colores azul y transparente. Se contrataron dos proveedores
-para reducir el tiempo de espera para obtener todas las impresiones necesarias. La figura siguiente muestra la vista
-isom\'etrica del contenedor de los motores.
+ \begin{figure}[!htbp]
+ \centering
+ \includegraphics [scale=0.5]
+  {./img/seaperch_motor.png}
+  \caption{Modelo en FreeCAD}
+ \end{figure}
 
-Se utili\'o NX para generar un render de alta calidad del modelo, generar el layout del submarino y las proyecciones del mismo
-para su posible armado. En las figuras se muestran los resultados.
+Se utiliz\'o NX para generar un render de alta calidad del modelo, generar el layout del submarino y las proyecciones del mismo
+para su posible armado. En las figuras 3, 4, y 5 se muestran los resultados.
 
  \begin{figure}[!htbp]
  \centering
@@ -71,6 +78,7 @@ en la escuela.
 Se dise\~n\'o una PCB de 10 cm de alto por 15 cm de largo para contener todo el sistema de control. Se emple\'o la
 t\'ecnica de transferencia por acetato para asegurarse que las pistas se fijaran en la placa de cobre. La placa de cobre se
 trat\'o previamente para remover suciedad y grasa que se encontraba en su superficie.
+
 
 \section{Programaci\'on}
 Se hizo uso de la suite de programaci\'on de Mikrobasic para dise\~nar y compilar el c\'odigo que se program\'o en el PIC.

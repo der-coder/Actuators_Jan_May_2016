@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.3.8)  29 APR 2016 21:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.3.8)  29 APR 2016 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,94 +593,189 @@ Package pdftex.def Info: ./img/logo_itesm.jpg used on input line 5.
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/logo_itesm.jpg>]) 
 (./tex/introduccion.tex
-<./img/seaperch_freecad.png, id=13, 758.835pt x 336.50719pt>
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--31
+
+ []
+
+[1] <./img/seaperch_freecad.png, id=17, 758.835pt x 336.50719pt>
 File: ./img/seaperch_freecad.png Graphic file (type png)
 
 <use ./img/seaperch_freecad.png>
-Package pdftex.def Info: ./img/seaperch_freecad.png used on input line 30.
+Package pdftex.def Info: ./img/seaperch_freecad.png used on input line 35.
 (pdftex.def)             Requested size: 379.41658pt x 168.25317pt.
- [1]
-<./img/seaperch_nx.png, id=18, 1501.61pt x 791.95876pt>
+
+<./img/seaperch_motor.png, id=18, 758.835pt x 336.50719pt>
+File: ./img/seaperch_motor.png Graphic file (type png)
+
+<use ./img/seaperch_motor.png>
+Package pdftex.def Info: ./img/seaperch_motor.png used on input line 42.
+(pdftex.def)             Requested size: 379.41658pt x 168.25317pt.
+
+<./img/seaperch_nx.png, id=19, 1501.61pt x 791.95876pt>
 File: ./img/seaperch_nx.png Graphic file (type png)
 
 <use ./img/seaperch_nx.png>
-Package pdftex.def Info: ./img/seaperch_nx.png used on input line 45.
+Package pdftex.def Info: ./img/seaperch_nx.png used on input line 52.
 (pdftex.def)             Requested size: 375.40158pt x 197.9892pt.
 
-<./img/seaperch_vistas.png, id=19, 1501.61pt x 791.95876pt>
+<./img/seaperch_vistas.png, id=20, 1501.61pt x 791.95876pt>
 File: ./img/seaperch_vistas.png Graphic file (type png)
 
 <use ./img/seaperch_vistas.png>
-Package pdftex.def Info: ./img/seaperch_vistas.png used on input line 52.
+Package pdftex.def Info: ./img/seaperch_vistas.png used on input line 59.
 (pdftex.def)             Requested size: 375.40158pt x 197.9892pt.
 
-<./img/seaperch_piezas.png, id=20, 1501.61pt x 791.95876pt>
+<./img/seaperch_piezas.png, id=21, 1501.61pt x 791.95876pt>
 File: ./img/seaperch_piezas.png Graphic file (type png)
 
 <use ./img/seaperch_piezas.png>
-Package pdftex.def Info: ./img/seaperch_piezas.png used on input line 59.
+Package pdftex.def Info: ./img/seaperch_piezas.png used on input line 66.
 (pdftex.def)             Requested size: 375.40158pt x 197.9892pt.
- [2 <./img/seaperch_freecad.png> <./img/seaperch_nx.png (PNG copy)>] [3 <./img/
-seaperch_vistas.png (PNG copy)> <./img/seaperch_piezas.png (PNG copy)>]) (./tex
-/materiales.tex
+ [2 <./img/seaperch_freecad.png> <./img/seaperch_motor.png>] [3 <./img/seaperch
+_nx.png (PNG copy)> <./img/seaperch_vistas.png (PNG copy)>]) (./tex/codigo.tex 
+[4 <./img/seaperch_piezas.png (PNG copy)>]
+[5]) (./tex/materiales.tex [6]
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-
-(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) (./tex/diagrama.tex)
-(./tex/evidencia.tex) (./tex/analisis.tex) (./tex/comentarios.tex
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¡ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ­ in font cmr12!
+)) (./tex/diagrama.tex [7]
+<./img/seaperch_schematic.png, id=43, 498.86375pt x 484.81125pt>
+File: ./img/seaperch_schematic.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
+<use ./img/seaperch_schematic.png>
+Package pdftex.def Info: ./img/seaperch_schematic.png used on input line 8.
+(pdftex.def)             Requested size: 249.43126pt x 242.40503pt.
 
+<./img/seaperch_pcb.png, id=44, 333.245pt x 501.875pt>
+File: ./img/seaperch_pcb.png Graphic file (type png)
+
+<use ./img/seaperch_pcb.png>
+Package pdftex.def Info: ./img/seaperch_pcb.png used on input line 15.
+(pdftex.def)             Requested size: 166.62209pt x 250.93687pt.
+
+<./img/seaperch_pcb_3d_01.png, id=45, 1263.72125pt x 572.1375pt>
+File: ./img/seaperch_pcb_3d_01.png Graphic file (type png)
+
+<use ./img/seaperch_pcb_3d_01.png>
+Package pdftex.def Info: ./img/seaperch_pcb_3d_01.png used on input line 22.
+(pdftex.def)             Requested size: 442.30907pt x 200.25111pt.
+
+Overfull \hbox (52.30907pt too wide) in paragraph at lines 22--23
+ [][] 
  []
 
-[4]
+<./img/seaperch_pcb_3d_02.png, id=46, 542.025pt x 471.7625pt>
+File: ./img/seaperch_pcb_3d_02.png Graphic file (type png)
+
+<use ./img/seaperch_pcb_3d_02.png>
+Package pdftex.def Info: ./img/seaperch_pcb_3d_02.png used on input line 29.
+(pdftex.def)             Requested size: 243.90898pt x 212.29115pt.
+ [8 <./img/seaperch_schematic.png (PNG copy)>] [9 <./img/seaperch_pcb.png (PNG 
+copy)> <./img/seaperch_pcb_3d_01.png (PNG copy)>]) (./tex/evidencia.tex
+Overfull \hbox (12.47476pt too wide) in paragraph at lines 6--7
+[]\OT1/cmr/m/n/12 Video del sub-ma-rino en fun-cio-na-mien-to: https://youtu.be
+/SB8qP86GZPc 
+ []
+
+<./img/20160327_150937.jpg, id=53, 3276.24pt x 1846.9pt>
+File: ./img/20160327_150937.jpg Graphic file (type jpg)
+
+<use ./img/20160327_150937.jpg>
+Package pdftex.def Info: ./img/20160327_150937.jpg used on input line 13.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+
+<./img/20160327_150940.jpg, id=54, 3276.24pt x 1846.9pt>
+File: ./img/20160327_150940.jpg Graphic file (type jpg)
+
+<use ./img/20160327_150940.jpg>
+Package pdftex.def Info: ./img/20160327_150940.jpg used on input line 20.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+
+<./img/20160327_151125.jpg, id=55, 3276.24pt x 1846.9pt>
+File: ./img/20160327_151125.jpg Graphic file (type jpg)
+
+<use ./img/20160327_151125.jpg>
+Package pdftex.def Info: ./img/20160327_151125.jpg used on input line 27.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+ [10 <./img/seaperch_pcb_3d_02.png (PNG copy)>]
+[11 <./img/20160327_150937.jpg> <./img/20160327_150940.jpg>]
+<./img/20160429_205804.jpg, id=62, 1846.9pt x 1919.17pt>
+File: ./img/20160429_205804.jpg Graphic file (type jpg)
+
+<use ./img/20160429_205804.jpg>
+Package pdftex.def Info: ./img/20160429_205804.jpg used on input line 36.
+(pdftex.def)             Requested size: 184.70082pt x 191.92824pt.
+
+<./img/20160427_003706.jpg, id=63, 3276.24pt x 1846.9pt>
+File: ./img/20160427_003706.jpg Graphic file (type jpg)
+
+<use ./img/20160427_003706.jpg>
+Package pdftex.def Info: ./img/20160427_003706.jpg used on input line 43.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+ [12 <./img/20160327_151125.jpg> <./img/20160429_205804.jpg>] <./img/IMG-201604
+26-WA0001.jpg, id=68, 723.70375pt x 1284.8pt>
+File: ./img/IMG-20160426-WA0001.jpg Graphic file (type jpg)
+
+<use ./img/IMG-20160426-WA0001.jpg>
+Package pdftex.def Info: ./img/IMG-20160426-WA0001.jpg used on input line 52.
+(pdftex.def)             Requested size: 144.73817pt x 256.95544pt.
+
+<./img/20160428_180525.jpg, id=69, 3276.24pt x 1846.9pt>
+File: ./img/20160428_180525.jpg Graphic file (type jpg)
+
+<use ./img/20160428_180525.jpg>
+Package pdftex.def Info: ./img/20160428_180525.jpg used on input line 59.
+(pdftex.def)             Requested size: 327.64319pt x 184.70082pt.
+) [13 <./img/20160427_003706.jpg> <./img/IMG-20160426-WA0001.jpg>] (./tex/anali
+sis.tex) (./tex/comentarios.tex
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ± in font cmr12!
- [5]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ­ in font cmr12!
+ [14 <./img/20160428_180525.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--37
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 
  []
 
-) [6] (./reporte_proyecto.aux
+) [16] (./reporte_proyecto.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 ) ) 
 Here is how much of TeX's memory you used:
- 13245 strings out of 493315
- 243741 string characters out of 6145894
- 311101 words of memory out of 5000000
- 16398 multiletter control sequences out of 15000+600000
- 10451 words of font info for 39 fonts, out of 8000000 for 9000
+ 13314 strings out of 493315
+ 245542 string characters out of 6145894
+ 319101 words of memory out of 5000000
+ 16451 multiletter control sequences out of 15000+600000
+ 10919 words of font info for 41 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,7n,61p,456b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,7n,61p,456b,1475s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texm
 f/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/publ
 ic/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on reporte_proyecto.pdf (7 pages, 613441 bytes).
+2.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
+exmf/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on reporte_proyecto.pdf (17 pages, 7119345 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

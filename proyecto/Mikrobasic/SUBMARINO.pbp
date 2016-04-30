@@ -1,0 +1,34 @@
+[DeviceName]
+Value=P16F877A
+[DeviceClock]
+Value=4
+[MainUnit]
+Value=SUBMARINO.pbas
+[DeviceFlags]
+Count=9
+Value0=_CP_OFF = $3FFF
+Value1=_DEBUG_OFF = $3FFF
+Value2=_WRT_OFF = $3FFF
+Value3=_CPD_OFF = $3FFF
+Value4=_LVP_OFF = $3F7F
+Value5=_BODEN_OFF = $3FBF
+Value6=_PWRTE_OFF = $3FFF
+Value7=_WDT_OFF = $3FFB
+Value8=_XT_OSC = $3FFD
+[BuildSimDebug]
+Build=0
+SimDebug=0
+[ProjectFiles]
+Count=0
+[OtherFiles]
+Count=1
+Value0=C:\Users\JuanCarlos\Documents\Profesional Tec\6 SEXTO SEMESTRE\ACTUADORES\SUBMARINO.pbas
+[TabIndex]
+Value=0
+[SearchPath]
+Count=3
+Value0=C:\Program Files (x86)\Mikroelektronika\mikroBasic\Defs\
+Value1=C:\Program Files (x86)\Mikroelektronika\mikroBasic\Uses\p16\
+Value2=C:\Users\JuanCarlos\Documents\Profesional Tec\6 SEXTO SEMESTRE\ACTUADORES\
+[EEPROMinfo]
+isused=0
