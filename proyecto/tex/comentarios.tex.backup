@@ -31,15 +31,12 @@ visi\'on diferente, así como tambi\'en una experiencia considerable para el des
 
 \subsection{Mario Cid Mayorga}
 \subsubsection{Comentarios, Observaciones y Conclusiones}
-Este proyecto result\'o un gran reto en el que pudimos aplicar conocimientos adquiridos a lo largo del semestre y
-de la carrera. Se invirti\'o una gran cantidad de tiempo, pero al final se pudo manufacturar. Decidimos hacer la
-parte de control con un microcontrolador PIC16F778, lo cual fue relativamente sencillo. \\
-
-Se realiz\'o el programa en lenguaje Basic y una vez programado el PIC no hubo mayor problema. El \'unico problema
-que enfrentamos fue que uno de los pines, al presionar el bot\'on para activar el motor, tardaba aproximadamente
-10 segundos en reaccionar; esto se solucion\'o reemplazando uno de los puentes H.
-Sin embargo, el PIC se da\~n\'o debido a que este puente H estaba da\~nado tambi\'en; se reemplazaron ambos
-componentes nuevamente y funcion\'o correctamente.\\
-
-Una vez sellados los motores, colocados en su lugar y conectados al control, el manejo del submarino fue sencillo y
-result\'o ser m\'as maniobrable de lo esperado.
+Este proyecto resultó un gran reto en el que pudimos aplicar conocimientos adquiridos a lo largo del semestre y
+de la carrera; se invirtió una gran cantidad de tiempo, pero al final se pudo manufacturar. Decidimos hacer la
+parte de control con un microcontrolador PIC16F778, lo cual fue relativamente sencillo, se realizó el programa
+en lenguaje Basic y una vez programado el PIC no hubo mayor problema, el único problema que enfrentamos fue que
+uno de los pines, al presionar el botón para activar el motor, tardaba aproximadamente 10 segundos en reaccionar;
+esto se solucionó reemplazando uno de los puentes H, sin embargo, el PIC se dañó debido a que este puente H estaba
+dañado también; se reemplazaron ambos componentes nuevamente y funcionó correctamente. Una vez sellados los motores,
+colocados en su lugar y conectados al control, el manejo del submarino fue sencillo y resultó ser más maniobrable
+de lo esperado.
