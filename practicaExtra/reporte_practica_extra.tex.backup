@@ -12,8 +12,8 @@
 \input{./tex/materiales.tex}
 % \input{./tex/diagrama.tex}
 \input{./tex/evidencia.tex}
+\includepdf{./Spreadsheet/Reporte_extra.pdf}
 \input{./tex/analisis.tex}
 \input{./tex/comentarios.tex}
-\includepdf{./Spreadsheet/Reporte_extra.pdf}
 
 \end{document}
