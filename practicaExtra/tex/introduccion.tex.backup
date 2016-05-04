@@ -1,0 +1,12 @@
+\section{Introducci\'on}
+Una aplicaci\'on de los principios de reluctancia en la industria es la creaci\'on de sensores.
+En esta pr\'actica se pretende demostrar dicho uso al dise\~nar un sensor capaz de medir
+la velocidad de un engrane empleando los principios de circuitos magn\'eticos.
+
+\section{Objetivos}
+\begin{itemize}
+ \item Dise\~nar y construir un sensor capaz de medir cambios en la reluctancia de un sistema
+ \item Utilizar el sistema dise\~nado para observar el cambio en la se\~nal el\'ectrica inducida por el engrane
+\end{itemize}
+
+\section{Descripci\'on y Presentaci\'on}

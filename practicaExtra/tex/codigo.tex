@@ -1,0 +1,30 @@
+\subsection{C\'odigo de programaci\'on}
+
+\begin{lstlisting}
+Name     Practica4 ;
+PartNo   00 ;
+Date     04/02/2015 ;
+Revision 01 ;
+Designer Equipo CM ;
+Company  ITESM ;
+Assembly None ;
+Location  ; 
+Device   g16v8a ;
+
+/* *************** INPUT PINS *********************/
+PIN 2    = P                       ; /*                                 */ 
+PIN 3    = B                       ; /*                                 */ 
+PIN 4    = F                       ; /*                                 */ 
+PIN 5    = R                       ; /*                                 */ 
+PIN 6    = L                       ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   12  =   D1                      ; /*                          */ 
+PIN   13  =   D0                      ; /*     I1 es igual a D0     */ 
+PIN   14  =   I0                      ; /*                          */ 
+
+/* Ecuaciones */
+D1= (P&!F&R)#(P&L)#(!P&F)#(!P&!B&!R);
+D0= (P&F&!L);
+I0= (!F)&(!P#!L);
+\end{lstlisting}
